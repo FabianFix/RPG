@@ -65,7 +65,7 @@ global.WoodCutting = 10;
 friction=1
 acceleration = 1.5;
 topspeed = global.Speed;
-spaceability = false
+ability = false
 
 lives = 3
 global.mana = 100
@@ -606,7 +606,7 @@ if(currentroom = 203)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>spaceability</string>
+            <string>ability</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -650,7 +650,7 @@ if(currentroom = 203)
             <kind>1</kind>
             <string>topspeed=20
 acceleration=4
-spaceability=true
+ability=true
 </string>
           </argument>
         </arguments>
