@@ -16,6 +16,7 @@
     <sprite>sprites\Bjorn_walking</sprite>
     <sprite>sprites\spr_skott</sprite>
     <sprite>sprites\tom</sprite>
+    <sprite>sprites\PengSprite</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,6 +32,8 @@
     <object>objects\BasicBoss</object>
     <object>objects\movementblock</object>
     <object>objects\Pauser</object>
+    <object>objects\peng</object>
+    <object>objects\Variabler</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
