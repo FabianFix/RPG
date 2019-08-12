@@ -97,7 +97,7 @@ global.BossHealth = 100
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>-100</sound>
+            <sound>sound0</sound>
           </argument>
           <argument>
             <kind>3</kind>
