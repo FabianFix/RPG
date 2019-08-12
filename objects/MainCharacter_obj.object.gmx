@@ -38,7 +38,7 @@ currentroom = 102
 if(room = room0)
     room = Center
 
-global.ability 11 = false
+global.ability_1 = false
 global.freemovement = true;
 global.Academics = 10;
 global.AnimalHunting = 10;
