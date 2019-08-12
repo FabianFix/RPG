@@ -169,6 +169,7 @@ if(Health &lt;= 0)
 {
     instance_destroy(self)
     effect_create_above(ef_firework,x,y,1,c_orange)
+    instance_create(x,y,peng_obj)
 }
 
 script_execute(0)
