@@ -59,7 +59,7 @@ draw_text(200, 30, global.pengar)
           </argument>
           <argument>
             <kind>5</kind>
-            <sprite>-100</sprite>
+            <sprite>WorkInProgress</sprite>
           </argument>
         </arguments>
       </action>
