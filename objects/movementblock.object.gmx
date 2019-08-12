@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.ability1 = false
+            <string>global.ability_1 = false
 global.freemovement = true
 </string>
           </argument>
@@ -254,11 +254,11 @@ y = global.spawny
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.ability1 = false)
+            <string>if(global.ability_1 = false)
 {
     if(global.mana &gt; 0)
     {
-        global.ability1 = true
+        global.ability_1 = true
         global.freemovement = false
         global.mana -=10
         direction = point_direction(x,y,mouse_x,mouse_y)

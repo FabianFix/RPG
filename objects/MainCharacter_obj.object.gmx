@@ -38,7 +38,7 @@ currentroom = 102
 if(room = room0)
     room = Center
 
-global.ability1 = false
+global.ability 11 = false
 global.freemovement = true;
 global.Academics = 10;
 global.AnimalHunting = 10;
@@ -65,7 +65,7 @@ global.WoodCutting = 10;
 friction=1
 acceleration = 1.5;
 topspeed = global.Speed;
-ability = false
+ability_space = false
 
 lives = 3
 global.mana = 100
@@ -119,7 +119,7 @@ global.BossHealth = 100
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.ability1 = false
+            <string>global.ability_1 = false
 global.freemovement = true
 </string>
           </argument>
@@ -166,7 +166,7 @@ global.freemovement = true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ability=false
+            <string>ability_space=false
 </string>
           </argument>
         </arguments>
@@ -427,7 +427,7 @@ else
             <kind>1</kind>
             <string>if(kontakt=false)
 {
-    if(global.ability1 = false)
+    if(global.ability_1 = false)
     {
         kontakt = true
         lives -=1
@@ -606,7 +606,7 @@ if(currentroom = 203)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ability</string>
+            <string>ability_space</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -650,7 +650,7 @@ if(currentroom = 203)
             <kind>1</kind>
             <string>topspeed=20
 acceleration=4
-ability=true
+ability_space=true
 </string>
           </argument>
         </arguments>
