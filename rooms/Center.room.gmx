@@ -93,6 +93,7 @@ instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)</c
     <instance objName="BasicBlock" x="1024" y="352" name="inst_D12DCD01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="movementblock" x="1888" y="1856" name="inst_EA467D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Pauser" x="800" y="416" name="inst_C31311B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="variabler" x="512" y="320" name="inst_698074DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
