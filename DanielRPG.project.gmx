@@ -33,8 +33,6 @@
     <object>objects\movementblock</object>
     <object>objects\Pauser</object>
     <object>objects\Shot_Obj</object>
-    <object>objects\ShotLeft_Obj</object>
-    <object>objects\ShotRight_Obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

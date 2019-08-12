@@ -97,34 +97,11 @@ global.BossHealth = 100
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound0</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
             <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="6">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>ability_2 = false
-</string>
           </argument>
         </arguments>
       </action>
@@ -146,9 +123,7 @@ global.BossHealth = 100
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy(Shot_Obj)
-instance_destroy(ShotLeft_Obj)
-instance_destroy(ShotRight_Obj)
+            <string>ability_2 = false
 </string>
           </argument>
         </arguments>
@@ -823,7 +798,7 @@ global.mana -= 5
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>ShotLeft_Obj</object>
+            <object>Shot_Obj</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -859,7 +834,7 @@ global.mana -= 5
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>ShotRight_Obj</object>
+            <object>Shot_Obj</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -895,35 +870,11 @@ global.mana -= 5
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>8</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>5</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
             <string>16</string>
           </argument>
           <argument>
             <kind>4</kind>
-            <string>6</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
