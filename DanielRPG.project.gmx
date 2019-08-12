@@ -18,6 +18,7 @@
     <sprite>sprites\tom</sprite>
     <sprite>sprites\Shot</sprite>
     <sprite>sprites\spr_peng</sprite>
+    <sprite>sprites\Skill_Add_Spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
