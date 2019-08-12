@@ -53,7 +53,7 @@ direction = point_direction(x,y,random(2000), random(2000))
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>59</string>
           </argument>
           <argument>
             <kind>4</kind>
