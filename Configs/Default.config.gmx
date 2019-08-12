@@ -436,7 +436,7 @@
     <option_savekey>true</option_savekey>
     <option_scale>-1</option_scale>
     <option_scaleprogress>true</option_scaleprogress>
-    <option_sci_UseSCI>-1</option_sci_UseSCI>
+    <option_sci_UseSCI>0</option_sci_UseSCI>
     <option_sci_serverLocation>https://github.com/FabianFix/RPG.git</option_sci_serverLocation>
     <option_screenkey>True</option_screenkey>
     <option_screenshotkey>true</option_screenshotkey>
@@ -498,9 +498,9 @@
     <option_version_product></option_version_product>
     <option_version_release>0</option_version_release>
     <option_win8_advertising_appid></option_win8_advertising_appid>
-    <option_win8_advertising_enable>-1</option_win8_advertising_enable>
+    <option_win8_advertising_enable>0</option_win8_advertising_enable>
     <option_win8_advertising_key></option_win8_advertising_key>
-    <option_win8_advertising_testing_enable>-1</option_win8_advertising_testing_enable>
+    <option_win8_advertising_testing_enable>0</option_win8_advertising_testing_enable>
     <option_win8_advertising_type>MS Advertising</option_win8_advertising_type>
     <option_win8_analytics_enable>0</option_win8_analytics_enable>
     <option_win8_analytics_id></option_win8_analytics_id>
