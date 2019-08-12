@@ -42,10 +42,10 @@ else
 }
 
 
+/*instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)
 instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)
 instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)
-instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)
-instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)</code>
+instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)*/</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -87,12 +87,99 @@ instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)</c
   </views>
   <instances>
     <instance objName="Drawer" x="256" y="160" name="inst_7A0D35DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BasicBlock" x="1344" y="352" name="inst_6E2B3FEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BasicBlock" x="992" y="128" name="inst_76247B0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BasicBlock" x="1440" y="640" name="inst_A90BF66D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="BasicBlock" x="1024" y="352" name="inst_D12DCD01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="movementblock" x="1888" y="1856" name="inst_EA467D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Pauser" x="800" y="416" name="inst_C31311B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="512" name="inst_AB795E8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="576" name="inst_01AE75DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="640" name="inst_1AB6C6DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="704" name="inst_F0D16D90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="768" name="inst_0BF8F26C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="832" name="inst_F2A71C1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="896" name="inst_AFF2A333" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="448" name="inst_4234684C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="480" y="448" name="inst_6AAF6A74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1216" name="inst_9B47081F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1280" name="inst_214CE3F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1344" name="inst_44A3665D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1408" name="inst_CF4A8EAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1472" name="inst_5719207C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1536" name="inst_FC8432C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1600" name="inst_C5DC421A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="416" y="1664" name="inst_9A1CE3F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="480" y="1664" name="inst_BB1FBA72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="544" y="1664" name="inst_A7966DED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="1664" name="inst_BE64F5DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="672" y="1664" name="inst_05C5D8E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="736" y="1664" name="inst_3E6D570D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="800" y="1664" name="inst_C5EF7B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="864" y="1664" name="inst_200D4C4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="928" y="1664" name="inst_54F50B40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="1664" name="inst_B8A3C359" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1056" y="1664" name="inst_8168F1BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1120" y="1664" name="inst_A0F21B60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1184" y="1664" name="inst_B8FFA8A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1248" y="1664" name="inst_E1244ECC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1312" y="1664" name="inst_6D9380DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1376" y="1664" name="inst_FD29F41B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1440" y="1664" name="inst_C69996F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1504" y="1664" name="inst_DD650BEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1568" y="1664" name="inst_BCFB7E83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1632" y="1664" name="inst_D3B0C1E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1664" name="inst_AE7FC09E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1600" name="inst_3C6661BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1536" name="inst_1A6EA655" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1472" name="inst_DA27A21D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1408" name="inst_4E493CAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1344" name="inst_81347198" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1280" name="inst_16A5175C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="1216" name="inst_A8F0AA31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="896" name="inst_2D0EABE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="832" name="inst_1145C9D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="544" y="448" name="inst_9569E2E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="448" name="inst_4641E867" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="672" y="448" name="inst_9082E051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="736" y="448" name="inst_54A6DF12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="800" y="448" name="inst_06DCBE18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="864" y="448" name="inst_90552943" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="928" y="448" name="inst_79B5AF2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="448" name="inst_09B8D371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1056" y="448" name="inst_2FFF67A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1120" y="448" name="inst_9B6C0610" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1184" y="448" name="inst_64AB07D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1248" y="448" name="inst_FEC5A526" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1312" y="448" name="inst_8B2B0DCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1376" y="448" name="inst_0879D0C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1440" y="448" name="inst_49DE1934" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1504" y="448" name="inst_E96F9D2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1568" y="448" name="inst_02A0E30A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1632" y="448" name="inst_FC7BF671" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="448" name="inst_8E408D03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="512" name="inst_7CF90637" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="576" name="inst_1203C923" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="640" name="inst_002C5038" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="704" name="inst_EEEDF859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="1696" y="768" name="inst_1D453A96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="1216" name="inst_F59B5E78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="1280" name="inst_F4A11D3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="672" y="1216" name="inst_10F4BDB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="736" y="1216" name="inst_23102130" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="864" y="1216" name="inst_C27622AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="928" y="1216" name="inst_CBE4F468" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="1216" name="inst_395CCE03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="1280" name="inst_C995F373" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="1344" name="inst_C306318E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="1408" name="inst_0183561B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="1472" name="inst_9E2FDB33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="992" y="1536" name="inst_5549584A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="928" y="1536" name="inst_97D3DDCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="864" y="1536" name="inst_5F40C6E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="800" y="1536" name="inst_1B0BB2D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="736" y="1536" name="inst_721B4D18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="672" y="1536" name="inst_2922E2F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="1536" name="inst_A45C7CFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="1472" name="inst_7FEDC8E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="1408" name="inst_F0D64ADC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="BasicBlock" x="608" y="1344" name="inst_C8C66BCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
