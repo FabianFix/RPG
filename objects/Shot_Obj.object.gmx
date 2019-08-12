@@ -71,7 +71,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy(self)
+            <string>
+instance_destroy(self)
 </string>
           </argument>
         </arguments>
