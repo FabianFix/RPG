@@ -17,6 +17,7 @@
     <sprite>sprites\spr_skott</sprite>
     <sprite>sprites\tom</sprite>
     <sprite>sprites\Shot</sprite>
+    <sprite>sprites\spr_peng</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -33,6 +34,7 @@
     <object>objects\movementblock</object>
     <object>objects\Pauser</object>
     <object>objects\Shot_Obj</object>
+    <object>objects\obj_peng</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
