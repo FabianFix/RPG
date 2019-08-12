@@ -425,7 +425,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(kontakt=false)
+            <string>/*if(kontakt=false)
 {
     if(global.ability_1 = false)
     {

@@ -33,6 +33,7 @@ image_speed=0
 speed = random_range(2,4)
 
 direction = point_direction(x,y,random(2000), random(2000))
+attacked = false
 </string>
           </argument>
         </arguments>
@@ -58,6 +59,29 @@ direction = point_direction(x,y,random(2000), random(2000))
           <argument>
             <kind>4</kind>
             <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>attacked = false
+</string>
           </argument>
         </arguments>
       </action>
@@ -230,6 +254,34 @@ script_execute(0)
     image_index = 1
 }
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="MainCharacter_obj">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(attacked = false)
+{
+attacked = true
+alarm[2] = 30
+lives -= 1
+}
 </string>
           </argument>
         </arguments>
