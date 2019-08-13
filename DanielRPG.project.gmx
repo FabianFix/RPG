@@ -23,6 +23,7 @@
     <sprite>sprites\HitPoint_Spr</sprite>
     <sprite>sprites\SkillUpgradeBlock_Spr</sprite>
     <sprite>sprites\Nr_1_10</sprite>
+    <sprite>sprites\Text_Block_Spr</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -41,6 +42,7 @@
     <object>objects\Shot_Obj</object>
     <object>objects\obj_peng</object>
     <object>objects\Improve_Hitpoints</object>
+    <object>objects\object11</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Center</room>
