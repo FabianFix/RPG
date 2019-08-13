@@ -40,9 +40,9 @@
     <object>objects\Pauser</object>
     <object>objects\Shot_Obj</object>
     <object>objects\obj_peng</object>
+    <object>objects\Improve_Hitpoints</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
     <room>rooms\Center</room>
     <room>rooms\North</room>
     <room>rooms\West</room>

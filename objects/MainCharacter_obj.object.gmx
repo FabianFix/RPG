@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.savex=0
-global.savey=0
+            <string>global.savex=x
+global.savey=y
 image_speed=0
 map = false
 
@@ -35,8 +35,6 @@ global.pause = false
 rememberx = 0
 remembery = 0
 currentroom = 102
-if(room = room0)
-    room = Center
 
 global.Academics = 10;
 global.AnimalHunting = 10;
@@ -70,7 +68,7 @@ ability_space = false
 global.ability_1 = false
 ability_2 = false
 
-lives = 3
+lives = global.Health/3
 global.mana = 100
 
 kontakt = false
@@ -600,11 +598,11 @@ global.savey = y
 
 if(x&lt;0)
     currentroom = currentroom - 100
-if(x&gt;2000)
+if(x&gt;6000)
     currentroom = currentroom + 100
 if(y&lt;0)
     currentroom = currentroom - 1
-if(y&gt;2000)
+if(y&gt;6000)
     currentroom = currentroom + 1
     
 if(currentroom = 1)

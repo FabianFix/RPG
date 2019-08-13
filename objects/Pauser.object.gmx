@@ -52,7 +52,18 @@
 {
     draw_roundrect_colour(124, 96, 900, 672, c_red, c_black, false)
     draw_text_transformed(350, 124, "Paused", 5, 5, 0)
+    draw_sprite(SkillUpgradeBlock_Spr, 0, 858, 0)
+    draw_sprite(SkillUpgradeBlock_Spr, 0, 858, 70)
+    draw_sprite(SkillUpgradeBlock_Spr, 0, 858, 140)
+    draw_sprite(AttackSpeed_Spr, 0, 892, 1)
+    draw_sprite(AttackDamage_Spr, 0, 892, 71)
+    draw_sprite(HitPoint_Spr, 0, 892, 141)
+    draw_sprite(Skill_Add_Spr, 0, 859, 157)
+    draw_sprite(Skill_Add_Spr, 0, 859, 87)
+    draw_sprite(Skill_Add_Spr, 0, 859, 17)
 }
+
+
 </string>
           </argument>
         </arguments>
@@ -77,13 +88,14 @@
             <kind>1</kind>
             <string>if(global.paused = false)
 {
-global.paused = true
-instance_deactivate_all(1)
+    global.paused = true
+    instance_deactivate_all(1)
 }
 else if(global.paused = true)
 {
-global.paused = false
-instance_activate_all()
+    global.paused = false
+    instance_deactivate_all(1)
+    instance_activate_all()
 }
 </string>
           </argument>
