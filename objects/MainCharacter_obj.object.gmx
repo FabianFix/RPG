@@ -94,7 +94,7 @@ global.BossHealth = 100
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>sound0</sound>
+            <sound>-100</sound>
           </argument>
           <argument>
             <kind>3</kind>
@@ -289,10 +289,8 @@ if(global.freemovement=true)
 
 }
 */
-if(topspeed &gt; 15)
+if(topspeed &gt; 10)
     effect_create_below(ef_smoke, x,y,1,c_black)
-else
-    effect_create_below(ef_smoke, x,y,1,c_dkgray)
 
 if(lives &lt;= 0)
 {
