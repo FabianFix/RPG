@@ -24,6 +24,7 @@
     <sprite>sprites\SkillUpgradeBlock_Spr</sprite>
     <sprite>sprites\Nr_1_10</sprite>
     <sprite>sprites\Text_Block_Spr</sprite>
+    <sprite>sprites\spr_npc1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -43,6 +44,7 @@
     <object>objects\obj_peng</object>
     <object>objects\Improve_Hitpoints</object>
     <object>objects\obj_writer</object>
+    <object>objects\Npc1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Center</room>

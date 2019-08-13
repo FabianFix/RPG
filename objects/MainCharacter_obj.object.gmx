@@ -737,12 +737,6 @@ if(currentroom = 203)
             <kind>1</kind>
             <string>ability_2 = true
 global.mana -= 5
-
-if(instance_number(obj_writer) = 0)
-{
-    instance_create(x,y,obj_writer)
-    obj_writer.text = "Hello Adventurer!"
-}
 </string>
           </argument>
         </arguments>
