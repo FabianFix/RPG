@@ -18,6 +18,11 @@
     <sprite>sprites\Shot</sprite>
     <sprite>sprites\spr_peng</sprite>
     <sprite>sprites\Skill_Add_Spr</sprite>
+    <sprite>sprites\AttackSpeed_Spr</sprite>
+    <sprite>sprites\AttackDamage_Spr</sprite>
+    <sprite>sprites\HitPoint_Spr</sprite>
+    <sprite>sprites\SkillUpgradeBlock_Spr</sprite>
+    <sprite>sprites\Nr_1_10</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

@@ -38,8 +38,6 @@ currentroom = 102
 if(room = room0)
     room = Center
 
-global.ability_1 = false
-global.freemovement = true;
 global.Academics = 10;
 global.AnimalHunting = 10;
 global.Arcana = 10;
@@ -62,13 +60,14 @@ global.Stamina = 10;
 global.Strength = 10;
 global.WoodCutting = 10;
 
+global.freemovement = true;
 friction=1
 acceleration = 1.5;
 topspeed = global.Speed;
 
 ability_action = false
 ability_space = false
-ability_1 = false
+global.ability_1 = false
 ability_2 = false
 
 lives = 3
