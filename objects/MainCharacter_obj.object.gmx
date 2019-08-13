@@ -59,9 +59,9 @@ global.Strength = 10;
 global.WoodCutting = 10;
 
 global.freemovement = true;
-friction=1
-acceleration = 1.5;
-topspeed = global.Speed;
+friction=.5
+acceleration = .75;
+topspeed = global.Speed/2;
 
 ability_action = false
 ability_space = false
@@ -236,8 +236,8 @@ global.freemovement = true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>topspeed=10
-acceleration = 1.5
+            <string>topspeed=global.Speed/2
+
 </string>
           </argument>
         </arguments>
@@ -543,7 +543,7 @@ else
           </argument>
           <argument>
             <kind>0</kind>
-            <string>16</string>
+            <string>8</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -739,6 +739,12 @@ if(currentroom = 203)
             <kind>1</kind>
             <string>ability_2 = true
 global.mana -= 5
+
+if(instance_number(obj_writer) = 0)
+{
+    instance_create(x,y,obj_writer)
+    obj_writer.text = "Hello Adventurer!"
+}
 </string>
           </argument>
         </arguments>
@@ -771,7 +777,7 @@ global.mana -= 5
           </argument>
           <argument>
             <kind>0</kind>
-            <string>25</string>
+            <string>12.5</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -807,11 +813,11 @@ global.mana -= 5
           </argument>
           <argument>
             <kind>0</kind>
-            <string>25</string>
+            <string>12.5</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>image_angle + 45</string>
+            <string>image_angle +45</string>
           </argument>
         </arguments>
       </action>
@@ -843,11 +849,11 @@ global.mana -= 5
           </argument>
           <argument>
             <kind>0</kind>
-            <string>25</string>
+            <string>12.5</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>image_angle - 45</string>
+            <string>image_angle-45</string>
           </argument>
         </arguments>
       </action>
@@ -867,7 +873,7 @@ global.mana -= 5
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>16</string>
+            <string>32</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -963,9 +969,9 @@ global.mana -= 5
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>topspeed=20
-acceleration=4
+            <string>topspeed=10
 ability_space=true
+
 </string>
           </argument>
         </arguments>
@@ -986,7 +992,7 @@ ability_space=true
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>120</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1010,7 +1016,7 @@ ability_space=true
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>300</string>
+            <string>600</string>
           </argument>
           <argument>
             <kind>4</kind>

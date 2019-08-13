@@ -56,7 +56,7 @@ topspeed = 15
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>120</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -132,7 +132,7 @@ speed = random_range(2,4)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>120</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -188,7 +188,7 @@ if(instance_number(MainCharacter_obj) = 1)
     if(distance_to_object(MainCharacter_obj) &lt;350)
     {
         if(attacked = false)
-        mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 7.5, false)
+        mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 3.75, false)
     }
 }
 
@@ -200,8 +200,8 @@ if(global.BossHealth &lt;= 0)
 
 if(distance_to_object(MainCharacter_obj) &lt; 5)
 {
-    mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 3.5, false)
-    alarm[2] = 10
+    mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 1.75, false)
+    alarm[2] = 20
     attacked = true
     image_index = 1
 }
@@ -260,7 +260,7 @@ script_execute(0)
     kontakt = true
     effect_create_above(ef_ellipse,x,y,2,c_blue)
     global.BossHealth = global.BossHealth - 20
-    alarm[0] = 10
+    alarm[0] = 20
     image_index = 1
 }
 

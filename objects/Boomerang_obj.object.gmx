@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>20</string>
+            <string>40</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -103,7 +103,7 @@ if(returning = 1)
 {
     if(returned= 0)
     {
-        speed=speed-0.8
+        speed=speed-0.4
         if(speed&lt;0)
         {
             returned = 1
@@ -115,7 +115,7 @@ if(returning = 1)
         if(instance_number(MainCharacter_obj) = 1)
         {
             direction=point_direction(x,y,MainCharacter_obj.x, MainCharacter_obj.y)
-            speed=speed+0.8
+            speed=speed+0.4
         }
     }
 }

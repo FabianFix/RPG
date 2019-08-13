@@ -58,7 +58,7 @@ instance_destroy(self)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>120</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -84,7 +84,7 @@ instance_destroy(self)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>60</string>
+            <string>120</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -166,7 +166,7 @@ if(instance_number(MainCharacter_obj) = 1)
 {
     if(distance_to_object(MainCharacter_obj) &lt;350)
     {
-        mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 4, false)
+        mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 2, false)
     }
 }
     
@@ -205,7 +205,7 @@ script_execute(0)
 kontakt = true
 effect_create_above(ef_ellipse,x,y,2,c_blue)
 Health = Health - 50
-alarm[0] = 10
+alarm[0] = 20
 image_index = 1
 }
 </string>
@@ -261,7 +261,7 @@ image_index = 1
     kontakt = true
     effect_create_above(ef_ellipse,x,y,2,c_blue)
     Health = Health - 50
-    alarm[0] = 10
+    alarm[0] = 20
     image_index = 1
 }
 

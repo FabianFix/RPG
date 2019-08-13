@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>friction = 1
+            <string>friction = .5
+
 </string>
           </argument>
         </arguments>
@@ -262,8 +263,8 @@ y = global.spawny
         global.freemovement = false
         global.mana -=10
         direction = point_direction(x,y,mouse_x,mouse_y)
-        speed = 25
-        alarm[3] = 20
+        speed = 12.5
+        alarm[3] = 40
     }
 }
 </string>
