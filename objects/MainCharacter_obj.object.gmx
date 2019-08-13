@@ -599,40 +599,45 @@ y = global.spawny
 global.savey = y
 
 if(x&lt;0)
-    currentroom = currentroom - 100
-if(x&gt;2000)
-    currentroom = currentroom + 100
-if(y&lt;0)
-    currentroom = currentroom - 1
-if(y&gt;2000)
-    currentroom = currentroom + 1
+    currentroom -= 100
+else if(x&gt;2000)
+    currentroom += 100
+else if(y&lt;0)
+    currentroom -= 1
+else if(y&gt;2000)
+    currentroom += 1
     
-if(currentroom = 1)
-    room = NorthWest
-
-if(currentroom = 2)
-    room = West
-
-if(currentroom = 3)
-    room = SouthWest
-    
-if(currentroom = 101)
-    room = North
-
-if(currentroom = 102)
-    room = Center
-
-if(currentroom = 103)
-    room = South
-    
-if(currentroom = 201)
-    room = NorthEast
-
-if(currentroom = 202)
-    room = East
-    
-if(currentroom = 203)
-    room = SouthEast
+switch(currentroom){
+    case 1:
+        room = NorthWest
+        break;
+    case 2:
+        room = West
+        break;
+    case 3:
+        room = SouthWest
+        break;
+    case 101:
+        room = North
+        break;
+    case 102:
+        room = Center
+        break;
+    case 103:
+        room = South
+        break;
+    case 201:
+        room = NorthEast
+        break;
+    case 202:
+        room = East
+        break;
+    case 302:
+        room = SouthEast
+        break;
+    default:
+        //Error
+}
 </string>
           </argument>
         </arguments>
