@@ -25,11 +25,14 @@
     <sprite>sprites\Nr_1_10</sprite>
     <sprite>sprites\Text_Block_Spr</sprite>
     <sprite>sprites\spr_npc1</sprite>
+    <sprite>sprites\spr_hus</sprite>
+    <sprite>sprites\spr_tak</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
+    <script>scripts\script2.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\MainCharacter_obj</object>
@@ -45,6 +48,8 @@
     <object>objects\Improve_Hitpoints</object>
     <object>objects\obj_writer</object>
     <object>objects\Npc1</object>
+    <object>objects\obj_hus</object>
+    <object>objects\obj_tak</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Center</room>
