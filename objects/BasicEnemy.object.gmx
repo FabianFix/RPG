@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>kontakt = false
+            <string>kontakt_mb = false
+kontakt_a2 = false
 Health = 100
+chasing = false
 
 image_speed=0
 
@@ -137,7 +139,8 @@ direction = point_direction(x,y, random(2000), random(2000))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>kontakt = false
+            <string>kontakt_mb = false
+kontakt_a2 = false
 </string>
           </argument>
         </arguments>
@@ -160,14 +163,17 @@ direction = point_direction(x,y, random(2000), random(2000))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle = direction
+            <string>
 
 if(instance_number(MainCharacter_obj) = 1)
 {
-    if(distance_to_object(MainCharacter_obj) &lt;350)
+    if(distance_to_object(MainCharacter_obj) &lt; 350)
     {
-        mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 2, false)
+        mp_potential_step(MainCharacter_obj.x,MainCharacter_obj.y, 1, false)
+        chasing = true
     }
+    else
+        chasing = false
 }
     
 if(Health &lt;= 0)
@@ -232,9 +238,9 @@ script_execute(0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(kontakt = false)
+            <string>if(kontakt_a2 = false)
 {
-kontakt = true
+kontakt_a2 = true
 effect_create_above(ef_ellipse,x,y,2,c_blue)
 Health = Health - 50
 alarm[0] = 20
@@ -288,9 +294,9 @@ image_index = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(kontakt = false)
+            <string>if(kontakt_mb = false)
 {
-    kontakt = true
+    kontakt_mb = true
     effect_create_above(ef_ellipse,x,y,2,c_blue)
     Health = Health - 50
     alarm[0] = 20
