@@ -47,6 +47,8 @@
     <object>objects\Npc1</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Pick_Race</room>
+    <room>rooms\Classroom</room>
     <room>rooms\Center</room>
     <room>rooms\North</room>
     <room>rooms\West</room>
