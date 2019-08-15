@@ -29,6 +29,7 @@
 global.savey=y
 image_speed=0
 map = false
+global.level = 1
 
 global.pause = false
 
@@ -74,6 +75,8 @@ global.mana = 100
 kontakt = false
 
 global.BossHealth = 100
+
+global.experience = 0
 </string>
           </argument>
         </arguments>

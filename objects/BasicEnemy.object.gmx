@@ -113,7 +113,7 @@ if(distance_to_object(MainCharacter_obj) &gt; 350)
 {
 speed = random_range(2,4)
 
-direction = point_direction(x,y,random(2000), random(2000))
+direction = point_direction(x,y, random(2000), random(2000))
 }
 </string>
           </argument>
@@ -175,6 +175,12 @@ if(Health &lt;= 0)
     instance_destroy(self)
     effect_create_above(ef_firework,x,y,1,c_orange)
     instance_create(x,y,obj_peng)
+    global.experience += 50/global.level
+    if(global.experience &gt;= 100)
+    {
+        global.level += 1
+        global.experience -= 100
+    }
 }
 
 script_execute(0)

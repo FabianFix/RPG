@@ -30,7 +30,7 @@
 
 draw_healthbar(32, 64, 332, 96, global.mana, c_black, c_white, c_blue, 0, true, true)
 
-
+draw_healthbar(128, 744, 896, 768, global.experience, c_dkgray, c_purple, c_purple, 0, true, true)
 </string>
           </argument>
         </arguments>
