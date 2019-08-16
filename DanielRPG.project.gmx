@@ -27,6 +27,7 @@
     <sprite>sprites\spr_npc1</sprite>
     <sprite>sprites\spr_hus</sprite>
     <sprite>sprites\spr_tak</sprite>
+    <sprite>sprites\spr_vagg</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -50,6 +51,7 @@
     <object>objects\Npc1</object>
     <object>objects\obj_hus</object>
     <object>objects\obj_tak</object>
+    <object>objects\obj_vagg</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Center</room>

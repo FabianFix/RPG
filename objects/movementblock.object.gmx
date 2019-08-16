@@ -105,7 +105,7 @@ global.freemovement = true
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_hus">
+    <event eventtype="4" ename="obj_vagg">
       <action>
         <libid>1</libid>
         <id>603</id>

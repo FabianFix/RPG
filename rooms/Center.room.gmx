@@ -127,8 +127,9 @@ instance_create(random_range(200, 1800), random_range(200, 1800), BasicEnemy)*/<
     <instance objName="BasicEnemy" x="1344" y="1760" name="inst_5BE216AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BasicEnemy" x="3776" y="800" name="inst_02C63D61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BasicEnemy" x="3264" y="3680" name="inst_50FA4F24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hus" x="736" y="736" name="inst_8C63C8B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tak" x="736" y="736" name="inst_411FE21F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hus" x="1760" y="2368" name="inst_74726CBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tak" x="1760" y="2368" name="inst_81FD12C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_vagg" x="1760" y="2368" name="inst_CF168F6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
