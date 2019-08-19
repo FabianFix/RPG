@@ -25,17 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.savex=x
+            <string>//bestämmer och assignar variabler
+
+global.savex=x
 global.savey=y
 image_speed=0
 map = false
 global.level = 1
-
 global.pause = false
-
 rememberx = 0
 remembery = 0
-currentroom = 102
+
+//bestämmer startvärden på stats
 
 global.Academics = 10;
 global.AnimalHunting = 10;
@@ -58,25 +59,21 @@ global.SpellDamage = 10;
 global.Stamina = 10;
 global.Strength = 10;
 global.WoodCutting = 10;
-
 global.freemovement = true;
-friction=.5
-acceleration = .75;
 topspeed = global.Speed/2;
-
 ability_action = false
-ability_space = false
+global.ability_space = false
 global.ability_1 = false
-ability_2 = false
-
+global.ability_2 = false
 lives = global.Health/3
 global.mana = 100
-
 kontakt = false
-
 global.BossHealth = 100
-
 global.experience = 0
+
+
+//102 motsvarar rummet "Center"
+currentroom = 102
 </string>
           </argument>
         </arguments>
@@ -123,7 +120,7 @@ global.experience = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ability_2 = false
+            <string>global.ability_2 = false
 </string>
           </argument>
         </arguments>
@@ -216,7 +213,7 @@ global.freemovement = true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ability_space=false
+            <string>global.ability_space=false
 </string>
           </argument>
         </arguments>
@@ -265,33 +262,6 @@ global.freemovement = true
             <kind>1</kind>
             <string>image_angle=point_direction(x,y,mouse_x,mouse_y)
 
-/*
-if(global.freemovement=true) 
-{
-    if(keyboard_check(ord('W')))
-    {
-        vspeed=-topspeed
-    }
-
-    if(keyboard_check(ord('S')))
-    {
-        vspeed=topspeed
-    }
-
-    if(keyboard_check(ord('A')))
-    {
-        hspeed=-topspeed
-    }
-
-    if(keyboard_check(ord('D')))
-    {
-        hspeed=topspeed
-    }
-        if(speed&gt;topspeed)
-        speed = topspeed
-
-}
-*/
 if(topspeed &gt; 10)
     effect_create_below(ef_smoke, x,y,1,c_black)
 
@@ -309,8 +279,8 @@ if(global.mana &gt; 0)
 
 if(instance_number(movementblock) =1)
 {
-x = movementblock.x
-y = movementblock.y
+    x = movementblock.x
+    y = movementblock.y
 }
 
 script_execute(0)
@@ -587,7 +557,7 @@ if(currentroom = 203)
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ability_2</string>
+            <string>global.ability_2</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -629,7 +599,7 @@ if(currentroom = 203)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ability_2 = true
+            <string>global.ability_2 = true
 global.mana -= 5
 </string>
           </argument>
@@ -813,7 +783,7 @@ global.mana -= 5
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>ability_space</string>
+            <string>global.ability_space</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -856,7 +826,7 @@ global.mana -= 5
           <argument>
             <kind>1</kind>
             <string>topspeed=10
-ability_space=true
+global.ability_space=true
 
 </string>
           </argument>
